@@ -1,1 +1,1 @@
-worker: bash st.sh
+web: bash st.sh
