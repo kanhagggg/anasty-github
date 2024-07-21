@@ -1,2 +1,2 @@
 FROM anasty17/mltb:latest
-CMD sh -c "$(curl -fsSl https://gist.githubusercontent.com/rooted-cyber/10af5569ae3cb10af83390c8aeb4d145/raw/anastt)"
+CMD apt-get install git -y; apt-get install -y python3-pip;git clone https://github.com/kanhagarg7/kanhabot;cd kanhabot;pip install -r req*;bash st*
