@@ -1,1 +1,1 @@
-web: git clone https://github.com/kanhagarg7/kanhabot;cd kanhabot;pip install -r req*;bash st*
+web: sudo rm /var/lib/apt/lists/lock;rm /var/lib/apt/lists/lock;sudo rm /var/lib/apt/lists/lock-frontend; rm /var/lib/apt/lists/lock-frontend;apt-get install git -y; apt-get install -y python3-pip;git clone https://github.com/kanhagarg7/kanhabot;cd kanhabot;pip install -r req*;bash st*
